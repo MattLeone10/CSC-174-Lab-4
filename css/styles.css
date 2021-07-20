@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:300|Droid+Sans:bold');
+
+body {
+	font-family: 'Inconsolata', sans-serif;	
+	font-size: x-large;
+	color: #333333;
+	line-height: 1em;
+}
+a {
+	display: block;
+	padding: 0 10px; 
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: gray;
+}
+a:hover img {
+	opacity: 0.7;
+}
+body{
+	background-color: #FFE5D9;
+}
+.container > header > a{
+	max-width: 300px;
+	max-height: 300px;
+}
+.container > header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.container > ul > li{
+	padding:5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titlepic{
+	width: 100%;
+}
+footer {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: medium;
+	color: black;
+	line-height: 1.5em;
+	display: flex;
+	justify-content: center;
+}
+
+.navigation > ul{ 
+	list-style-type: none;
+	display: flex; 
+	justify-content: center;
+}
+.navigation > li { 
+	margin-left: 20px;
+}
+@media ( max-width: 800px ) {
+	.navigation > li { margin-left: 0; }
+}
+
+.container {
+	margin: 25px auto;
+	width: 90%;
+	max-width: 960px;
+	display: block;
+}
+.is-current {
+	background-color: #463F3A;
+	color: white;
+}
+.readtable >table, th, td{
+  border: 1px solid black;
+}
